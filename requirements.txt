@@ -1,0 +1,17 @@
+motor
+numpy
+Pillow
+yt-dlp
+aiohttp
+hachoir
+olefile
+requests
+tgcrypto
+filetype
+aiofiles
+dnspython
+tldextract
+beautifulsoup4
+pyrogram==1.4.12
+user_agent
+bs4
