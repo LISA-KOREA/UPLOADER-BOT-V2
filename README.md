@@ -7,6 +7,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/LISA-KOREA/UPLOADER-BOT-V2?&style=flat-square&logo=github)](https://github.com/LISA-KOREA/UPLOADER-BOT-V2/stargazers)
 
   
+### Use this bot [Upload Bot V3.3 🚀](http://t.me/UploadLinkToFileBot)
+
 
 ### Deploy To Heroku
 
