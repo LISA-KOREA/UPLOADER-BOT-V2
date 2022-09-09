@@ -7,12 +7,15 @@
 [![GitHub stars](https://img.shields.io/github/stars/LISA-KOREA/UPLOADER-BOT-V2?&style=flat-square&logo=github)](https://github.com/LISA-KOREA/UPLOADER-BOT-V2/stargazers)
 
   
-### Use this bot [Upload Bot V3.3 🚀](http://t.me/UploadLinkToFileBot)
 
 
 ### Deploy To Heroku
 
   ㅤ ㅤ   ㅤ <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FUPLOADER-BOT-V2"><img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white"/></a> 
+##
+
+### Use this bot [Upload Bot V3.3 🚀](http://t.me/UploadLinkToFileBot)
+
 
 ## Config Vars:
 
