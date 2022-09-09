@@ -26,5 +26,3 @@
 * [Dan Tès](https://t.me/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
 * [Yoily](https://t.me/YoilyL) for his [UploaditBot](https://telegram.dog/UploaditBot)
 * [Lisa](https://t.me/LISA_FAN_LK) this is me [Upload Bot V3.3 🚀](https://telegram.dog/UploadLinkToFileBot)
-#### LICENSE
-- GPLv3
