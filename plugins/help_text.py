@@ -18,8 +18,6 @@ from pyrogram import Client as Clinton
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from . import fembed
-
 
 @Clinton.on_message(filters.private & filters.command(["cancel"]))
 async def cancel_process(bot, update):
