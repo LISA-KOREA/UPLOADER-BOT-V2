@@ -14,10 +14,10 @@
   ㅤ ㅤ   ㅤ <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FLISA-KOREA%2FUPLOADER-BOT-V2"><img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Heroku-purple?style=for-the-badge&logo=heroku&logoColor=white"/></a> 
 ##
 
-### Use this bot [Upload Bot V3.3 🚀](http://t.me/UploadLinkToFileBot)
+## Use this bot [Upload Bot V3.3 🚀](http://t.me/UploadLinkToFileBot)
 
 
-## Config Vars:
+### Config Vars:
 
 1. `API_ID` : Get it from https://my.telegram.org/apps 
 2. `API_HASH` : Get it from https://my.telegram.org/apps
