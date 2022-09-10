@@ -101,9 +101,7 @@ async def lisa_call_back(bot, update):
                 message_id=update.message.message_id
             )
         else:
-            # ref: message from @SOURCES_CODES
             start_time = time.time()
-            # try to upload file
             if tg_send_type == "audio":
                 duration = await Mdata03(download_directory)
                 thumb_image_path = await Gthumb01(bot, update)
