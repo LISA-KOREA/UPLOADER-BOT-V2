@@ -61,9 +61,9 @@ You can now send a new URL."""
 
 <b>🔘 Creater :</b> @LISA_FAN_LK"""
 
-    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail."
+    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Send your thumbnail pic to generate custom thumbail."
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-    CANCEL_STR = "Process Cancelled ❌"
+    CANCEL_STR = "❌ Cancelled ❌"
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds."
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
 
