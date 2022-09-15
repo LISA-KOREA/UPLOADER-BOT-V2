@@ -67,4 +67,20 @@ You can now send a new URL."""
     ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds."
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
 
+    INFO_TEXT = """
+🌸 First Name : <b>{}</b>
 
+🌸 Second Name : <b>{}</b>
+
+🌸 Username : <b>@{}</b>
+
+🌸 Id : <code>{}</code>
+
+🌸 Profile : <b>{}</b>
+
+🌸 Dc : <b>{}</b>
+
+🌸 Language : <b>{}</b>
+
+🌸 Status : <b>{}</b>
+"""
