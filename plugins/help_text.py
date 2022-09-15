@@ -125,11 +125,11 @@ async def start(bot, update):
       reply_to_message_id=update.message_id
     )
 
-@Clinton.on_message(filters.private & filters.command(["caption"]))
-async def add_caption_help(bot, update):
+@Clinton.on_message(filters.private & filters.command(["info"]))
+async def add_info_help(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.ADD_CAPTION_HELP,
+        text=Translation.INFO_TEXT,
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
