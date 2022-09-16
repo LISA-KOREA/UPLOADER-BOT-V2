@@ -129,6 +129,7 @@ async def start(bot, update):
 async def add_info_help(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.INFO_TEXT.format(update.from_user.first_name, last_name, update.from_user.username, update.from_user.id, update.from_user.mention, update.from_user.dc_id, update.from_user.language_code, update.from_user.status),        parse_mode="html",
+        text=Translation.INFO_TEXT.format(update.from_user.first_name, last_name, update.from_user.username, update.from_user.id, update.from_user.mention, update.from_user.dc_id, update.from_user.language_code, update.from_user.status),
+        parse_mode="html",
         reply_to_message_id=update.message_id
     )
