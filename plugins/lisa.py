@@ -36,7 +36,7 @@ async def lisa_call_back(bot, update):
         "/" + str(update.from_user.id) + ".jpg"
     custom_file_name = os.path.basename(youtube_dl_url)
     if " * " in update.message.reply_to_message.text:
-        url_parts = update.message.reply_to_message.text.split(" | ")
+        url_parts = update.message.reply_to_message.text.split("|")
         if len(url_parts) == 2:
             #youtube_dl_url = url_parts[0]
             custom_file_name = url_parts[1]
