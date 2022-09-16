@@ -45,7 +45,7 @@ async def youtube_dl_call_back(bot, update):
     youtube_dl_username = None
     youtube_dl_password = None
     if " * " in youtube_dl_url:
-        url_parts = youtube_dl_url.split(" | ")
+        url_parts = youtube_dl_url.split("|")
         if len(url_parts) == 2:
             youtube_dl_url = url_parts[0]
             custom_file_name = url_parts[1]
