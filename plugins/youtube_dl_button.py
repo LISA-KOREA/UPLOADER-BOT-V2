@@ -45,7 +45,7 @@ async def youtube_dl_call_back(bot, update):
     youtube_dl_username = None
     youtube_dl_password = None
     if " * " in youtube_dl_url:
-        url_parts = youtube_dl_url.split(" * ")
+        url_parts = youtube_dl_url.split(" | ")
         if len(url_parts) == 2:
             youtube_dl_url = url_parts[0]
             custom_file_name = url_parts[1]
@@ -187,7 +187,7 @@ async def youtube_dl_call_back(bot, update):
                 chat_id=update.message.chat.id,
                 message_id=update.message.message_id
             )
-            # ref: message from @Sources_codes
+            # ❤️❤️❤️❤️LISA❤️❤️❤️❤️
             start_time = time.time()
             # try to upload file
             if tg_send_type == "audio":
