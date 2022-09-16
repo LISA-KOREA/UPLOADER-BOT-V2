@@ -1,4 +1,4 @@
-# Modified by @LISA_FAN_LK | @UploadLinkToFileBot
+# Modified by @LISA_FAN_LK | @UploadLinkToFileBot 
 
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -21,7 +21,7 @@ from hachoir.parser import createParser
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 
-@Clinton.on_message(filters.private & filters.regex(pattern=".*http.*")
+@Clinton.on_message(filters.private & filters.regex(pattern=".*http.*"))
 async def echo(bot, update):
     await AddUser(bot, update)
     imog = await update.reply_text("<b>Processing... ⏳</b>", reply_to_message_id=update.message_id)
