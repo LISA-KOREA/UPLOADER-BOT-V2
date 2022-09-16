@@ -21,7 +21,7 @@ from hachoir.parser import createParser
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
 
-@Clinton.on_message(filters.private & filters.regex(pattern=".*http.*") & ~filters.regex(pattern="\.mediafire\.com") & ~filters.regex(pattern="fembed\.com|fembed-hd\.com|femax20\.com|vanfem\.com|suzihaza\.com|owodeuwu\.xyz"))
+@Clinton.on_message(filters.private & filters.regex(pattern=".*http.*")
 async def echo(bot, update):
     await AddUser(bot, update)
     imog = await update.reply_text("<b>Processing... ⏳</b>", reply_to_message_id=update.message_id)
@@ -36,8 +36,8 @@ async def echo(bot, update):
     youtube_dl_password = None
     file_name = None
     url = update.text
-    if " * " in url:
-        url_parts = url.split(" * ")
+    if " | " in url:
+        url_parts = url.split(" | ")
         if len(url_parts) == 2:
             url = url_parts[0]
             file_name = url_parts[1]
