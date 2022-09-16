@@ -30,13 +30,13 @@ async def lisa_call_back(bot, update):
     #logger.info(update)
     cb_data = update.data
     # youtube_dl extractors
-    tg_send_type, youtube_dl_format, youtube_dl_ext, youtube_dl_url = cb_data.split("*")
+    tg_send_type, youtube_dl_format, youtube_dl_ext, youtube_dl_url = cb_data.split("|")
     #youtube_dl_url = update.message.reply_to_message.text
     thumb_image_path = Config.DOWNLOAD_LOCATION + \
         "/" + str(update.from_user.id) + ".jpg"
     custom_file_name = os.path.basename(youtube_dl_url)
     if " * " in update.message.reply_to_message.text:
-        url_parts = update.message.reply_to_message.text.split(" * ")
+        url_parts = update.message.reply_to_message.text.split(" | ")
         if len(url_parts) == 2:
             #youtube_dl_url = url_parts[0]
             custom_file_name = url_parts[1]
