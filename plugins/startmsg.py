@@ -47,7 +47,7 @@ You can now send a new URL."""
 
 5.  Use /caption to Set caption as Reply to Media
 
-6. Use this /about and /viewthumbnail
+6. Comments /about /viewthumbnail /info
 """
     ABOUT_TEXT = """<b>🔘 My Name :</b> URL Uploader Bot V2 🚀
 
