@@ -18,9 +18,7 @@ Example: <a href='https://te.legra.ph/file/ecf5297246c5fb574d1a0.jpg'>See This!<
 Or use /cancel to terminate incomplete processes."""
     PROCESS_CANCELLED = """File upload cancelled
 You can now send a new URL."""
-    NO_PROCESS_FOUND = """🤷‍♂️ No pending uploads were found. You can upload files by sending a link now!
-
-/help for more details."""
+    NO_PROCESS_FOUND = """🤷‍♂️ No pending uploads were found. You can upload files by sending a link now!"""
     FORMAT_SELECTION = "👇𝗦𝗲𝗹𝗲𝗰𝘁 𝗔𝗻𝗱 𝗖𝗵𝗼𝘀𝗲 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝗺𝗮𝘁👇"
     SET_CUSTOM_USERNAME_PASSWORD = """\n👮‍♂ Powered By :</b> @LISA_FAN_LK"""
     DOWNLOAD_START = "📥 DOWNLOADING..."
@@ -55,7 +53,7 @@ You can now send a new URL."""
 
 <b>🔘 Source :</b> <a href="https://github.com/LISA-KOREA/UPLOADER-BOT-V2">Click Here</a>
 
-<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.7</a>
+<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.8</a>
 
 <b>🔘 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.4.16</a>
 
