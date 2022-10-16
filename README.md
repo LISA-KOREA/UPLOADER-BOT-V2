@@ -27,7 +27,7 @@
 
 ## 
 
-### Use this bot [Upload Bot V3.3 🚀](http://t.me/UploadLinkToFileBot)
+### Use this bot [Upload Bot V3.5 🚀](http://t.me/UploadLinkToFileBot)
 
 ##
 
