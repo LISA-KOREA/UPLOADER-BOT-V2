@@ -12,16 +12,12 @@ import os
 import shutil
 import time
 from datetime import datetime
-# the secret configuration specific things
 from config import Config
-# the Strings used for this "thing"
 from plugins.startmsg import Translation
-#from transliterate import translit
 from plugins.thumbnail import *
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram.types import InputMediaPhoto
 from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
-# https://stackoverflow.com/a/37631799/4723940
 from database.access import clinton
 from PIL import Image
 
