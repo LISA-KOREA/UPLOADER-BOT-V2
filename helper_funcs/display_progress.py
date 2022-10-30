@@ -33,9 +33,7 @@ async def progress_for_pyrogram(
             round(percentage, 2),
             filename
         )
-        tmp = progress + """🔸<b>Dᴏɴᴇ</b> ✅: {0} of {1}\n
-🔸<b>Speed</b> 🚀: {2}/s\n
-🔸<b>Time left</b> 🕒: {3}""".format(
+        tmp = progress + """🔸<b>Dᴏɴᴇ</b> ✅: {0} of {1}\n🔸<b>Sᴘᴇᴇᴅ</b> 🚀: {2}/s\n🔸<b>Tɪᴍᴇ</b> 🕒: {3}""".format(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
