@@ -18,7 +18,6 @@ async def progress_for_pyrogram(
     now = time.time()
     diff = now - start
     if round(diff % 10.00) == 0 or current == total:
-        # if round(current / total * 100, 0) % 5 == 0:
         percentage = current * 100 / total
         speed = current / diff
         elapsed_time = round(diff) * 1000
@@ -29,8 +28,8 @@ async def progress_for_pyrogram(
         estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
 
         progress = "[{0}{1}] {2}%\n".format(
-            ''.join(["▓" for i in range(math.floor(percentage / 5))]),
-            ''.join(["░" for i in range(10 - math.floor(percentage / 5))]),
+            ''.join(["▓" for i in range(math.floor(percentage / 10))]),
+            ''.join(["░" for i in range(10 - math.floor(percentage / 10))]),
             round(percentage, 2),
             filename
         )
@@ -40,7 +39,6 @@ async def progress_for_pyrogram(
             humanbytes(current),
             humanbytes(total),
             humanbytes(speed),
-            # elapsed_time if elapsed_time != '' else "0 s",
             TimeFormatter(time_to_completion) if time_to_completion != '' else "0 s"
         )
         try:
@@ -54,8 +52,6 @@ async def progress_for_pyrogram(
             pass
 
 def humanbytes(size):
-    # https://stackoverflow.com/a/49361727/4723940
-    # 2**10 = 1024
     if not size:
         return ""
     power = 2**10
