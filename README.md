@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/LISA-KOREA/UPLOADER-BOT-V2?&style=flat-square&logo=github)](https://github.com/LISA-KOREA/UPLOADER-BOT-V2/stargazers)
 
   
-#### GIVE ME A STAR ⭐
+# GIVE ME A STAR ⭐
 
 ### Fork And Deploy
 
