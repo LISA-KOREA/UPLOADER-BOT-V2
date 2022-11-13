@@ -45,7 +45,7 @@ async def viewthumbnail(bot, update):
         await bot.send_photo(
         chat_id=update.chat.id,
         photo=thumbnail,
-        caption=f"Your current saved thumbnail 😊",
+        caption=f"Saved your thumbnail 😊",
         reply_to_message_id=update.message_id)
     else:
         await update.reply_text(text=f"No thumbnail found 🥴")
