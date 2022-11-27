@@ -21,7 +21,7 @@
 
 ### Deploy to Koyeb
 
-  ㅤ ㅤ   ㅤ [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=servicename)
+  ㅤ ㅤ   ㅤ <a href="https://app.koyeb.com/deploy?type=git&repository=&branch=name&name=servicename"><img alt="heroku" src="https://img.shields.io/badge/-Deploy%20To%20Koyeb-black?style=for-the-badge&logo=koyeb&logoColor=white"/></a> 
 
 #### How To Create Your Own Watch This Video Click 👉 [YouTube](https://youtu.be/UcRYSUdaFlo)
 
