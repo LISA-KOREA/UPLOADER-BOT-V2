@@ -21,10 +21,6 @@ class Database:
         user = await self.col.find_one({'id': int(id)})
         return True if user else False
 
-    async def total_users_count(self):
-        count = await self.col.count_documents({})
-        return count
-
     async def get_all_users(self):
         all_users = self.col.find({})
         return all_users
