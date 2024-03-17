@@ -1,4 +1,4 @@
-# UPLOADER V2 🚀
+# UPLOADER V2 🚀 
 
 [![logo](https://c.tenor.com/FU4mw1elg4QAAAAd/blackpink-kpop.gif)](https://telegram.dog/UploadLinkToFileBot)
 
@@ -33,7 +33,7 @@
 
 ## 
 
-### Use this bot [Upload Bot V3.7 🚀](http://t.me/UploadLinkToFileBot)
+### Use this bot [Upload Bot V4 🚀](http://t.me/UploadLinkToFileBot)
 
 ##
 
