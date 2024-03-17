@@ -1,4 +1,4 @@
-# UPLOADER V2 🚀 
+# UPLOADER V2 🚀  [Dead ⚰] not working this repo use V4 new repo
 
 [![logo](https://c.tenor.com/FU4mw1elg4QAAAAd/blackpink-kpop.gif)](https://telegram.dog/UploadLinkToFileBot)
 
